@@ -30,7 +30,7 @@ exports.livenet = {
 
 exports.mainnet = exports.livenet;
 
-exports.testnet = {  //not setup for litecoin yet
+exports.testnet = {  //not setup for machinecoin yet
   name: 'testnet',
   magic: hex('0b110907'),
   addressVersion: 0x6f,
@@ -52,5 +52,5 @@ exports.testnet = {  //not setup for litecoin yet
     'xx',
     'xx'
   ],
-  defaultClientPort: 19333
+  defaultClientPort: 50333
 };

@@ -1,10 +1,10 @@
 {
-  "name": "Litecore",
-  "description": "Litecoin Library",
+  "name": "Machinecore",
+  "description": "Machinecoin Library",
   "version": "0.1.39",
   "author": {
-    "name": "pembo210",
-    "email": "pembo210@gmail.com"
+    "name": "gitju",
+    "email": "gitju@cryptocurrency.science"
   },
   "contributors": [
     {
@@ -17,8 +17,8 @@
   }
   ],
   "keywords": [
-    "litecoin",
-    "ltc",
+    "machinecoin",
+    "mac",
     "satoshi",
     "money",
     "currency",
@@ -27,7 +27,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pembo210/Litecore.git"
+    "url": "https://github.com/machinecoin-project/Machinecore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
