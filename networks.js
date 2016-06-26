@@ -7,29 +7,25 @@ var hex = function(hex) {
 exports.livenet = {
   name: 'livenet',
   magic: hex('FBC0B6DB'),
-  addressVersion: 0x30,
-  privKeyVersion: 0xb0,
+  addressVersion: 0x32,
+  privKeyVersion: 0xb2,
   P2SHVersion: 5,
-  hkeyPublicVersion: 0x0488c42e,
-  hkeyPrivateVersion: 0x0488e1f4,
+  hkeyPublicVersion: 0x0488B21E,
+  hkeyPrivateVersion: 0x0488ADE4,
   genesisBlock: {
-    hash: hex('E2BF047E7E5A191AA4EF34D314979DC9986E0F19251EDABA5940FD1FE365A712'),
-    merkle_root: hex('D9CED4ED1130F7B7FAAD9BE25323FFAFA33232A17C3EDF6CFD97BEE6BAFBDD97'),
+    hash: hex('7231e8037796de412d350e509a56ed4fccddb20cfde1debf1c47a5ce9b871f6a'),
+    merkle_root: hex('36a9e41063f3e71466299d0ed9e8193c1c802a88b286016fa4a4d0c3bc384a5c'),
     height: 0,
-    nonce: 2084524493,
+    nonce: 3716037,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1317972665,
+    timestamp: 1389040865,
     bits: 504365040,
   },
   dnsSeeds: [
-    'dnsseed.litecointools.com',
-    'dnsseed.litecoinpool.org',
-    'dnsseed.ltc.xurious.com',
-    'dnsseed.koin-project.com',
-    'dnsseed.weminemnc.com'
+    'dnsseed.machinecoin.org'
   ],
-  defaultClientPort: 9333
+  defaultClientPort: 40333
 };
 
 exports.mainnet = exports.livenet;
